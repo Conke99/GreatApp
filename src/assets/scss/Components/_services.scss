@@ -1,0 +1,77 @@
+// Third Section Start //
+.services {
+  width: 100%;
+  height: $sectionHeight;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  .servicesContent {
+    width: 80%;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    h2 {
+      font-weight: 600;
+      font-size: 48px;
+      span {
+        color: purple;
+      }
+    }
+    .mainParagrafServices {
+      font-size: 17px;
+      text-align: center;
+      font-weight: 500;
+      color: $textColor;
+    }
+    .work {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-evenly;
+      width: 100%;
+      height: 35%;
+      .workContent {
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+        font-size: 20px;
+        h4 {
+          font-weight: bold;
+        }
+        .circleDevField {
+          width: 89px;
+          height: 89px;
+          background-color: $grayColor;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          border-radius: 50%;
+          img {
+            width: 90%;
+            height: 90%;
+          }
+        }
+        .circleIncTeam {
+          width: 89px;
+          height: 89px;
+          background-color: $heavyGray;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          border-radius: 50%;
+          img {
+            width: 90%;
+            height: 90%;
+          }
+        }
+        p {
+          text-align: center;
+        }
+      }
+    }
+  }
+}
+// Third Section End //

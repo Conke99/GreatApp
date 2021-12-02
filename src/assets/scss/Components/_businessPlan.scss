@@ -1,0 +1,33 @@
+// Eight Section Start //
+.businessPlan {
+  height: 92px;
+  width: 100%;
+  background-color: $lightOrange;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  .businessPlanContent {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    color: white;
+    width: 80%;
+    button {
+      width: 141px;
+      height: 51px;
+      color: rgb(55, 134, 253);
+      background-color: white;
+      border: none;
+      font-weight: bold;
+      cursor: pointer;
+      transition-duration: 0.4s;
+      overflow: hidden;
+    }
+    button:hover {
+      background: rgb(55, 134, 253);
+      box-shadow: 0px 2px 10px 5px #fff;
+      color: #fff;
+    }
+  }
+}
+// Eight Section End //

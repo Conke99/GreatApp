@@ -1,0 +1,40 @@
+// Five Section Start //
+.creativity {
+  width: 100%;
+  height: $sectionHeight;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  .contentCreativity {
+    width: 80%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+    h3 {
+      font-size: 30px;
+    }
+    h2 {
+      font-weight: 600;
+      font-size: 72px;
+      color: $orange;
+    }
+    p {
+      font-size: 14px;
+      width: 100;
+    }
+    h4 {
+      text-align: center;
+      padding: 12px 8px 12px 8px;
+      font-size: 17px;
+      cursor: pointer;
+    }
+    h4:hover {
+      background-color: rgba(206, 206, 206, 0.253);
+      border-radius: 12px;
+    }
+  }
+}
+// Five Section End //

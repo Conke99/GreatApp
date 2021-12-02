@@ -1,0 +1,30 @@
+// Seven Section Start //
+.numbers {
+  background-color: rgb(252, 210, 176);
+  height: 294px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  .containerNumbers {
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    .numbersContent {
+      width: 141px;
+      height: 75px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      align-items: center;
+      .counter {
+        font-size: 48px;
+      }
+      p {
+        font-size: 14px;
+      }
+    }
+  }
+}
+// Seven Section End //

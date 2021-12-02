@@ -1,0 +1,140 @@
+.home {
+  background-color: $backgroundHome;
+  height: $sectionHeight;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  .containerHome {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    .contentHome {
+      height: 437px;
+      display: flex;
+      justify-content: space-between;
+      flex-direction: column;
+      .contentHomeText {
+        height: 80%;
+        display: flex;
+        justify-content: space-evenly;
+        flex-direction: column;
+        font-weight: bold;
+        h1 {
+          font-size: 50px;
+        }
+        p {
+          font-size: 15px;
+        }
+      }
+      button {
+        background-color: $navyblue;
+        cursor: pointer;
+        border-radius: 30px;
+        border: none;
+        color: white;
+        font-weight: bold;
+        font-size: 15px;
+        width: 129px;
+        height: 52px;
+        span {
+          cursor: pointer;
+          display: inline-block;
+          position: relative;
+          transition: 0.5s;
+        }
+        span:after {
+          content: "\00bb";
+          position: absolute;
+          opacity: 0;
+          top: 0;
+          right: -20px;
+          transition: 0.5s;
+        }
+      }
+      button:hover span {
+        padding-right: 15px;
+      }
+      button:hover span:after {
+        opacity: 1;
+        right: 0;
+      }
+    }
+    // img slider start
+    .slider {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      position: relative;
+      width: 40%;
+      overflow: hidden;
+      height: 550px;
+      .myslider {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        .sliderImg {
+          width: 100%;
+        }
+      }
+      .prev,
+      .next {
+        cursor: pointer;
+        position: absolute;
+        transform: translate(0, -50%);
+      }
+      .next {
+        right: 0%;
+      }
+      .dots {
+        position: absolute;
+        left: 50%;
+        transform: translate(-50%);
+        bottom: 0;
+        cursor: pointer;
+        .dot {
+          display: inline-block;
+          width: 15px;
+          height: 15px;
+          border: 3px solid $lowOpacityOrange;
+          background-color: $lowOpacityOrange;
+          border-radius: 50%;
+          margin: 0 10px;
+          cursor: pointer;
+        }
+        .active,
+        .dot:hover {
+          background-color: $orange;
+          border: 3px solid $orange;
+        }
+      }
+      .fade {
+        -webkit-animation-name: fade;
+        -webkit-animation-duration: 1.5s;
+        animation-name: fade;
+        animation-duration: 1.5s;
+      }
+
+      @-webkit-keyframes fade {
+        from {
+          opacity: 0.8;
+        }
+        to {
+          opacity: 1;
+        }
+      }
+
+      @keyframes fade {
+        from {
+          opacity: 0.8;
+        }
+        to {
+          opacity: 1;
+        }
+      }
+    }
+    // img slider end
+  }
+}

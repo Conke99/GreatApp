@@ -1,0 +1,46 @@
+// Four Section Start //
+.history {
+  width: 100%;
+  height: $sectionHeight;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  .containerHistory {
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 354px;
+    .contentHistory {
+      height: 100%;
+      display: flex;
+      justify-content: space-between;
+      flex-direction: column;
+      h3 {
+        font-size: 30px;
+      }
+      h2 {
+        font-size: 72px;
+        font-weight: 500;
+        span {
+          color: $orange;
+        }
+      }
+      p {
+        font-size: 14px;
+      }
+      h4 {
+        text-align: center;
+        width: 137px;
+        padding: 12px 8px 12px 8px;
+        font-size: 17px;
+        cursor: pointer;
+      }
+      h4:hover {
+        background-color: rgba(206, 206, 206, 0.253);
+        border-radius: 12px;
+      }
+    }
+  }
+}
+// Four Section End //

@@ -1,0 +1,47 @@
+// Second Section Start //
+.about {
+  width: 100%;
+  height: $sectionHeight;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  .containerAbout {
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    .contentAbout {
+      display: flex;
+      justify-content: space-between;
+      flex-direction: column;
+      height: 415px;
+      width: 40%;
+      h3 {
+        font-size: 30px;
+      }
+      p {
+        font-size: 14px;
+      }
+      h2 {
+        font-size: 72px;
+        font-weight: 600;
+        span {
+          color: $orange;
+        }
+      }
+      h4 {
+        text-align: center;
+        width: 137px;
+        padding: 12px 8px 12px 8px;
+        font-size: 17px;
+        cursor: pointer;
+      }
+      h4:hover {
+        background-color: rgba(206, 206, 206, 0.253);
+        border-radius: 12px;
+      }
+    }
+  }
+}
+// Second Section End //

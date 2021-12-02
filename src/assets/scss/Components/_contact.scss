@@ -1,0 +1,58 @@
+// Nine Section Start //
+.contact {
+  height: 343px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  .contact_Content {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    .contact_Text {
+      width: 338px;
+      height: 103px;
+      h2 {
+        font-size: 48px;
+        font-weight: 50;
+        span {
+          font-weight: bold;
+        }
+      }
+      h4 {
+        font-size: 23px;
+        font-weight: bold;
+      }
+    }
+    form {
+      display: flex;
+      flex-direction: row;
+      width: 60%;
+      input[type="text"]::placeholder {
+        padding-left: 10px;
+      }
+      .email {
+        display: flex;
+        flex-grow: 2;
+        width: 556px;
+        height: 81px;
+        background-color: rgb(241, 241, 241);
+        font-weight: bold;
+        color: rgb(70, 50, 117);
+        font-size: 23px;
+        border: none;
+      }
+      .submit_Email {
+        height: 81px;
+        border: none;
+        width: 150px;
+        color: rgb(123, 53, 192);
+        font-weight: bold;
+        font-size: 15px;
+      }
+    }
+  }
+}
+// Nine Section End //
